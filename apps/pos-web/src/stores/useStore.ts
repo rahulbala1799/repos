@@ -106,7 +106,7 @@ export const useStore = create<AppState>((set, get) => ({
         if (t.id !== tableId) return t;
         const next: Record<string, Table['status']> = {
           available: 'occupied',
-          occupied: 'ready' as any || 'available',
+          occupied: 'available',
           reserved: 'occupied',
           cleaning: 'available',
         };
