@@ -1,0 +1,200 @@
+.page {
+  padding: 32px;
+  max-width: 1200px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.greeting {
+  font-size: 13px;
+  color: #A0A3B1;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 800;
+  color: #FFFFFF;
+  letter-spacing: -0.5px;
+}
+
+/* Stats */
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+@media (max-width: 900px) {
+  .statsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Sections */
+.section {
+  margin-bottom: 28px;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 14px;
+}
+
+.sectionTitle {
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.sectionSubtitle {
+  font-size: 13px;
+  color: #6B6E7B;
+}
+
+/* Quick Actions */
+.actionsRow {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+@media (max-width: 700px) {
+  .actionsRow {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Active Orders */
+.orderList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.empty {
+  text-align: center;
+  padding: 40px;
+  background: #1A1D27;
+  border-radius: 14px;
+  border: 1px dashed #2E3144;
+}
+
+.emptyText {
+  font-size: 15px;
+  color: #A0A3B1;
+  font-weight: 600;
+}
+
+.emptySubtext {
+  font-size: 13px;
+  color: #6B6E7B;
+  margin-top: 4px;
+}
+
+/* Speed Banner */
+.speedBanner {
+  background: linear-gradient(135deg, #1A1D27 0%, #242736 100%);
+  border: 1px solid #2E3144;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 28px;
+}
+
+.speedGrid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 900px) {
+  .speedGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .speedGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.metric {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.metricValue {
+  font-size: 24px;
+  font-weight: 800;
+  color: #00B894;
+  line-height: 1;
+}
+
+.metricLabel {
+  font-size: 11px;
+  color: #FFFFFF;
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+.metricDesc {
+  font-size: 10px;
+  color: #6B6E7B;
+  margin-top: 2px;
+}
+
+/* Stack */
+.stackGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+@media (max-width: 800px) {
+  .stackGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.stackPill {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #1A1D27;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+
+.stackDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.stackLabel {
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.stackDesc {
+  display: block;
+  font-size: 11px;
+  color: #6B6E7B;
+  margin-top: 1px;
+}

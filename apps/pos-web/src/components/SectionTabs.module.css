@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 18px;
+  border-radius: 999px;
+  background: #1A1D27;
+  border: 1px solid #2E3144;
+  color: #A0A3B1;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+  font-family: inherit;
+}
+
+.tab:hover {
+  border-color: #6C5CE7;
+  color: #FFFFFF;
+}
+
+.tabSelected {
+  background: #6C5CE7;
+  border-color: #6C5CE7;
+  color: #FFFFFF;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #E17055;
+  color: #FFFFFF;
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 800;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+}

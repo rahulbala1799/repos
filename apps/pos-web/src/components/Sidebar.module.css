@@ -1,0 +1,122 @@
+.sidebar {
+  width: 220px;
+  background: #1A1D27;
+  border-right: 1px solid #2E3144;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 0;
+  flex-shrink: 0;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 24px;
+  margin-bottom: 32px;
+}
+
+.brandIcon {
+  width: 36px;
+  height: 36px;
+  background: linear-gradient(135deg, #6C5CE7, #A29BFE);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 900;
+  color: white;
+}
+
+.brandText {
+  font-size: 20px;
+  font-weight: 800;
+  color: #FFFFFF;
+  letter-spacing: -0.5px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 0 12px;
+  flex: 1;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  color: #6B6E7B;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.15s ease;
+}
+
+.navItem:hover {
+  background: #242736;
+  color: #A0A3B1;
+}
+
+.navItemActive {
+  background: #6C5CE722;
+  color: #A29BFE;
+  font-weight: 600;
+}
+
+.navIcon {
+  width: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.navLabel {
+  white-space: nowrap;
+}
+
+.footer {
+  padding: 0 16px;
+  border-top: 1px solid #2E3144;
+  padding-top: 16px;
+  margin-top: 8px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 34px;
+  height: 34px;
+  background: #6C5CE7;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  flex-shrink: 0;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.userName {
+  font-size: 13px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.userRole {
+  font-size: 11px;
+  color: #6B6E7B;
+}

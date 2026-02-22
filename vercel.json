@@ -1,0 +1,6 @@
+{
+  "buildCommand": "cd apps/pos-web && npm install && npm run build",
+  "outputDirectory": "apps/pos-web/.next",
+  "framework": "nextjs",
+  "installCommand": "cd apps/pos-web && npm install"
+}

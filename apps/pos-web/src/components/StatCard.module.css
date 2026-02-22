@@ -1,0 +1,43 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  background: #1A1D27;
+  border-radius: 14px;
+  overflow: hidden;
+  flex: 1;
+  min-width: 0;
+}
+
+.accent {
+  width: 4px;
+  flex-shrink: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 20px;
+  flex: 1;
+}
+
+.label {
+  font-size: 11px;
+  color: #A0A3B1;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+.value {
+  font-size: 32px;
+  font-weight: 800;
+  color: #FFFFFF;
+  margin-top: 4px;
+  line-height: 1.1;
+}
+
+.subtitle {
+  font-size: 11px;
+  color: #6B6E7B;
+  margin-top: 4px;
+}

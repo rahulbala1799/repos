@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #1A1D27;
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid #2E3144;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.dotOnline {
+  background: #00B894;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.dotOffline {
+  background: #FF6B6B;
+}
+
+.labelOnline {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #00B894;
+}
+
+.labelOffline {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #FF6B6B;
+}
+
+.queue {
+  background: #FDCB6E;
+  color: #0F1117;
+  font-size: 9px;
+  font-weight: 800;
+  border-radius: 999px;
+  padding: 1px 6px;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
