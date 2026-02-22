@@ -1,0 +1,9 @@
+{
+  "name": "restaurant-pos",
+  "private": true,
+  "scripts": {
+    "pos": "pnpm --filter pos start",
+    "kds": "pnpm --filter kds start",
+    "types": "supabase gen types typescript --local > packages/supabase/types.ts"
+  }
+}
